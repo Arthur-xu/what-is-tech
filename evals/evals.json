@@ -1,0 +1,56 @@
+{
+  "skill_name": "what-is-tech",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "MCP 是什么",
+      "expected_output": "Chinese answer with English terms; cites the current spec version on modelcontextprotocol.io; compares function calling / A2A; Sources carry versions or dates",
+      "files": [],
+      "assertions": [
+        "Has all five numbered sections",
+        "Every section has at least one [n] citation",
+        "Ends with a Sources list containing URLs",
+        "Every source has a version or date",
+        "Cites the official domain",
+        "Actually fetched the official docs during the run",
+        "Comparison section uses a table",
+        "Answer language matches question",
+        "Length is moderate"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "what is Kafka",
+      "expected_output": "English answer; cites kafka.apache.org docs for the current release (KRaft, no ZooKeeper); comparison table vs RabbitMQ/Pulsar/SQS or Kinesis citing each one's own docs",
+      "files": [],
+      "assertions": [
+        "Has all five numbered sections",
+        "Every section has at least one [n] citation",
+        "Ends with a Sources list containing URLs",
+        "Every source has a version or date",
+        "Cites the official domain",
+        "Actually fetched the official docs during the run",
+        "Comparison section uses a table",
+        "Answer language matches question",
+        "Length is moderate"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "React Server Components 是什么？",
+      "expected_output": "Chinese answer with English terms; cites current react.dev docs; includes example code; limitations cover framework/bundler dependence and recent security advisories",
+      "files": [],
+      "assertions": [
+        "Has all five numbered sections",
+        "Every section has at least one [n] citation",
+        "Ends with a Sources list containing URLs",
+        "Every source has a version or date",
+        "Cites the official domain",
+        "Actually fetched the official docs during the run",
+        "Comparison section uses a table",
+        "Answer language matches question",
+        "Length is moderate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+ {
+  "query": "ClickHouse 是什么？我们组有人提议把埋点数据从 Postgres 挪过去，我想先搞清楚它到底是个啥",
+  "should_trigger": true
+ },
+ {
+  "query": "what is htmx exactly? saw it on HN again and everyone acts like it replaces react",
+  "should_trigger": true
+ },
+ {
+  "query": "介绍一下 eBPF，它解决的是什么问题",
+  "should_trigger": true
+ },
+ {
+  "query": "WebAssembly component model 是干嘛的？和普通的 wasm module 有啥区别",
+  "should_trigger": true
+ },
+ {
+  "query": "can you explain what Temporal (the workflow engine, not the JS date API) is and why people use it instead of a job queue",
+  "should_trigger": true
+ },
+ {
+  "query": "Iceberg 表格式是啥 跟 delta lake hudi 比怎么样",
+  "should_trigger": true
+ },
+ {
+  "query": "新同事问我 Kubernetes Operator 是什么，我自己也讲不清，帮我系统讲讲",
+  "should_trigger": true
+ },
+ {
+  "query": "what does Tailscale actually do under the hood? is it just a VPN",
+  "should_trigger": true
+ },
+ {
+  "query": "vLLM 是什么？听说推理快很多，原理是啥",
+  "should_trigger": true
+ },
+ {
+  "query": "OpenTelemetry 到底是个什么东西，我们现在用的是 datadog agent",
+  "should_trigger": true
+ },
+ {
+  "query": "帮我在 services/ingest 里把 kafka consumer 的 group id 改成从环境变量读取",
+  "should_trigger": false
+ },
+ {
+  "query": "my redis connection keeps timing out with ECONNRESET after ~5 minutes idle, here's the ioredis config, what's wrong",
+  "should_trigger": false
+ },
+ {
+  "query": "写一个 python 脚本，用 boto3 把 s3://logs-bucket/2026/ 下的所有 .gz 文件下载到本地并解压",
+  "should_trigger": false
+ },
+ {
+  "query": "这段 SQL 里的 window function 帮我改成用 CTE 写，跑在 BigQuery 上",
+  "should_trigger": false
+ },
+ {
+  "query": "what is the time complexity of this function? def f(n): return sum(i*j for i in range(n) for j in range(i))",
+  "should_trigger": false
+ },
+ {
+  "query": "我们要在 Kafka 和 SQS 之间做选型，帮我写一份 ADR，包含背景、选项、决策和后果",
+  "should_trigger": false
+ },
+ {
+  "query": "upgrade our next.js app from 14 to 15, list the breaking changes that affect files under app/ and fix them",
+  "should_trigger": false
+ },
+ {
+  "query": "帮我给 README 写一段介绍，说明这个项目是什么、怎么安装",
+  "should_trigger": false
+ },
+ {
+  "query": "what is the default max_connections in the postgres instance we have running in docker-compose.yml? check the file",
+  "should_trigger": false
+ },
+ {
+  "query": "Rust 的 borrow checker 报错 cannot borrow `x` as mutable because it is also borrowed as immutable，这段代码怎么改",
+  "should_trigger": false
+ }
+]
